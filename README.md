@@ -3,7 +3,7 @@ A portfolio for Teannie Binns using Bootstrap
 
 
 ## Description 
-The motivation for this project was to  inprove the portfilio that I previously created with HTML ans CSS, this time using bootstrap. This will include the UX???, accesabilty and .......
+The motivation for this project was to  inprove the portfilio that I previously created with HTML and CSS, this time using bootstrap. This will include the UX???, accesabilty and .......
 
 This portfolio will also be used when job searching and I will be updating this portfolio throughout the bootcamp as I learn more skills.
 
