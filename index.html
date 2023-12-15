@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-gb"> 
 
-<!-- add head? -->
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -73,14 +71,17 @@
      <!-- Each project will eventually link to your class project work! -->
 
 
-    <section class="hero">       
-        <div class="jumbotron">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <section class="hero flex-row rounded-circle float-end">       
+        <div class="jumbotron"> 
+                <!-- <div class="float-end"> -->
+                    <img src="/assets/images/Teannie.jpeg" height="250px" class="rounded-circle float-right" alt="Sample image">
+                <!-- </div> -->
+            <h1 class="display-4">Teannie Binns</h1>
+            <div class="col-xs-2">
             <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-          </div>
+            <p>Welcome to my Portfolio. Please have a look at my previous work.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Contact Me</a>
+        </div>
      
     </section>
 
@@ -99,7 +100,7 @@
             </div>
             <div class="col mb-4">
               <div class="card">
-                <img src="/assets/images/Eatery-project.JPG" class="card-img-top" alt="...">
+                <img src="/assets/images/Eatery-project.JPG"  class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -138,48 +139,51 @@
                                                          <!--  SKILLS SECTION -->
 
 <!-- List out the skills you expect to learn from the bootcamp. -->
+<!-- make side by side. add colours -->
 
 
-    <section class="Gridskills ">
-        <h1>Skills section</h1>
-        <div class="row row-cols-1 row-cols-md-2">
-            <div class="col mb-4">
-              <div class="card">
+    <section class="skillslist">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Languages</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">HTML</li>
+              <li class="list-group-item">CSS</li>
+              <li class="list-group-item">GIT<li>
+            </ul>
+            </div>
+        </div>
+
+            <div class="card" style="width: 18rem;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">Programmes</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
-              </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Github</li>
+                  <li class="list-group-item">Gitbash</li>
+                  <li class="list-group-item">Other<li>
+                </ul>
             </div>
-            <div class="col mb-4">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Elements</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Box Models</li>
+                      <li class="list-group-item">Flexbox</li>
+                      <li class="list-group-item">Grids<li>
+                    </ul>
                 </div>
-              </div>
-            </div>
-            <div class="col mb-4">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col mb-4">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+    
+          
 
     </section>
 
@@ -187,7 +191,7 @@
 
 
 
-                                                         <!--  ABOUT SECTION -->
+                                                         <!--  ABOUT  and CONTACT MESECTION  in same row-->
 
 
     <section>
@@ -196,15 +200,32 @@
 
      <!--  An "About Me" section in the same row. -->
 
+     <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Contact Me</h5>
+          <a href="#" class="btn btn-primary"> 07956235805</a>
+          <a href="#" class="btn btn-primary">Contact Me</a>
+          <a href="https://github.com/TeannieTech" class="btn btn-primary">Github</a>
+          <a href="https://uk.linkedin.com/in/teannie-tech-0750532a5" class="btn btn-primary">Linkdin</a>
+          <a href="https://www.instagram.com/teannietech/" class="btn btn-primary">Instagram</a>
+        </div>
+      </div>
+
     </section>
 
 
                                                          <!--  ABOUT END -->
 
 
-    <section>
-        <h1>Footer</h1>
-       <!-- A footer section. -->
+                                                     <!-- A footer section. -->
+
+
+    <section class="footer">
+        <footer class="footerbar">
+        
+        </footer>
+
+
 
       <!-- All hyperlinks should have a hover effect. -->
 

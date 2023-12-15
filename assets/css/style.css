@@ -1,10 +1,22 @@
-/* 
+
 .Work {
 
-    background-color: black;
+    background-color: rgb(195, 137, 137);
+}
+
+
+.Gridskills {
+
+
+background-color:khaki
+}
+
+/* .jumbotron img {
+
+    border: 10px solid rgb(68, 0, 255);
 } */
 
-/* .card {
+.footer {
 
-    border: 10px solid red;
-} */
+    background-color: #e3f2fd;
+}
