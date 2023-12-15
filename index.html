@@ -16,48 +16,51 @@
 
 
 
-<!-- Bootstrap CSS -->
+                                                        <!-- NAVIGATION-->
+
+    <!-- A navigation menu at the top. Feel free to use the navbar code provided in Bootstrap's documentation -->
+    <!-- links that are applicable to portfolio. -->
+    <!-- - hero section -->
+    <!-- - A jumbotron featuring picture, name, and any other information. -->
 <!-- 2 on each side one left one right-  why not showing -->
 
-<nav class="navbar">
-    <ul class="nav justify-content-end">
+
+<body> <!--  fix indentation -->
+
+
+    <nav class="navbar flex-row justify-content-center" style="background-color: #e3f2fd;">
+    
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">My Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My Skills</a>
+            </li>
+          </ul>
+
+                <img src="./assets/images/small logo.jpg" width="50px" height= "50px">
+
+      <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" href="#">My Work</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">My Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Me</a>
+          <a class="nav-link active" href="#">About Me</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">My CV</a>
         </li>
       </ul>
 
-    <!--   Navigation bar -->
-
-    <!-- A navigation menu at the top. Feel free to use the navbar code provided in Bootstrap's documentation -->
-
-    <!-- links that are applicable to portfolio. -->
-
-</nav>
-
-<body> <!--   fix indentation -->
-
-    <section>
-        <h1>Hero section</h1>
-     <!-- - hero section -->
-     <!-- - A jumbotron featuring picture, name, and any other information. -->
-     
-    </section>
 
 
-    <section>
-        <h1>Work section</h1>
-        
+    </nav>
 
-       <!--  work section -->
+                                                        <!-- NAVIGATION END-->
+
+
+
+
+
+                                                       <!--  WORK SECTION-->
 
      <!-- - A section displaying work in grid.  -->
 
@@ -69,17 +72,122 @@
 
      <!-- Each project will eventually link to your class project work! -->
 
+
+    <section class="hero">       
+        <div class="jumbotron">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          </div>
+     
     </section>
 
 
-    <section>
+    <section class="Work">
+        <h1>Work section</h1>
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+              <div class="card">
+                <img src="/assets/images/Lernantino.png" class="card-img-top" alt="Website frontpage">
+                <div class="card-body">
+                  <h5 class="card-title">Accessibility</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="/assets/images/Eatery-project.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="/assets/images/furnature-project.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="/assets/images/readmess.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+    </section>
+
+
+                                                           <!--  WORK SECTION END -->
+
+
+
+
+                                                         <!--  SKILLS SECTION -->
+
+<!-- List out the skills you expect to learn from the bootcamp. -->
+
+
+    <section class="Gridskills ">
         <h1>Skills section</h1>
-
-     <!-- A skills section / carosel-->
-
-     <!-- List out the skills you expect to learn from the bootcamp. -->
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
     </section>
+
+                                                             <!--  WORK SECTION END -->
+
+
+
+                                                         <!--  ABOUT SECTION -->
 
 
     <section>
@@ -89,6 +197,9 @@
      <!--  An "About Me" section in the same row. -->
 
     </section>
+
+
+                                                         <!--  ABOUT END -->
 
 
     <section>
