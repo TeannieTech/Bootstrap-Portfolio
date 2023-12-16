@@ -54,6 +54,8 @@ Previous portfolio
 
 - https://pages.github.com/
 
+-   https://www.quackit.com/bootstrap/bootstrap_5/tutorial/bootstrap_images.cfm#:~:text=Rounded%20Corners%20%26%20Thumbnails,rounded%2D*%20utility%20classes.
+
 
 ## License 
 
