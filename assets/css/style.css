@@ -1,4 +1,73 @@
-.aboutsection, .card-body{
+.aboutsection {
 
     background-color: #e3f2fd;
+}
+
+/* .cardbody {
+    background-color: brown;
+} */
+
+p,  {
+
+    margin-bottom: 0%;
+}
+
+.jumbotron {
+    margin-bottom: 0%;
+}
+
+/* .custom-shape-divider-top-1702936305 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1702936305 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 124px;
+    transform: rotateY(180deg);
+} */
+
+.custom-shape-divider-top-1702936305 .shape-fill {
+    fill: #e3f2fd;
+}
+/* 
+.custom-shape-divider-bottom-1702937676 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1702937676 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 124px;
+    transform: rotateY(180deg);
+} */
+
+.custom-shape-divider-bottom-1702937676 .shape-fill {
+    fill: rgb(69, 21, 190);
+}
+
+
+.banner {
+    background-color: rgb(69, 21, 190);
+}
+
+
+.aboutsection h1, .mywork h1, .skills h1 {
+    text-align: center;
+}
+
+.skills {
+    background-color: #e3f2fd;;
 }

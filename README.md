@@ -58,6 +58,8 @@ Previous portfolio
 
 - https://mdbootstrap.com/how-to/bootstrap/circle-image/
 
+https://www.shapedivider.app/
+
 
 ## License 
 
