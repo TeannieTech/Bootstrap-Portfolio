@@ -159,6 +159,7 @@ background-color: #e3f2fd;
 }
 
 .circle-img {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
+  padding-top: 10px;
 }
