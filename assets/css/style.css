@@ -95,3 +95,22 @@ p,  {
 .custom-shape-divider-top-1702942244 .shape-fill {
     fill: #FFFFFF;
 }
+
+.contactinfo li{
+a:link 
+/* check above*/
+{
+    color:#FFFFFF
+}
+
+a:visited
+{
+    color:#FFFFFF
+}
+
+a:hover 
+{
+    color:#FFFFFF
+}
+}
+
