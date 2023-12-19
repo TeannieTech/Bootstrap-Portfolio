@@ -25,14 +25,14 @@ N/A
 
 -Select images of my work to be taken to deployed applications. 
 
-Link to my deployed project: 
+Link to my deployed project: https://teannietech.github.io/Bootstrap-Portfolio/
 
 Link to my previous portfolio: https://teannietech.github.io/Teannie-Binns-Portfolio/
 
 
 Bootstrap portfolio
 
-![alt text](/assets/images/placeholder.JPG) 
+![alt text](/assets/images/Bootstrapportfolioss.jpeg) 
  
 
 
