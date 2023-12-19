@@ -3,15 +3,15 @@ A portfolio for Teannie Binns using Bootstrap
 
 
 ## Description 
-The motivation for this project was to  inprove the portfilio that I previously created with HTML and CSS, this time using bootstrap. This will include the UX???, accesabilty and .......
+The motivation for this project was to inprove the portfilio that I previously created with HTML and CSS, this time using bootstrap. My goal is to make my portfolio look more like a website and have a better look visually.
 
-This portfolio will also be used when job searching and I will be updating this portfolio throughout the bootcamp as I learn more skills.
+This portfolio will also be used when job searching and I will be updating it throughout the bootcamp as I learn more skills.
 
 This Portfolio will showcase the skills I learnt over the last few weeks since being introduced to Bootstrap. As before, this portfolio will keep all of my skills and projects in one place so it is easier to showcase to future employeers. 
 
 I learnt that I will be judged from this portfolio and the big difference that Bootstrap has on the visual aspect of the page and how it reduced the time it took to create my portfolio this time round. 
 
-I learnt how to use Bootstrap to.........
+I learnt that it is easier to get the layout i like and using google and the bootstrap search function for help when I am stuck.
 
 
 
@@ -58,7 +58,7 @@ Previous portfolio
 
 - https://mdbootstrap.com/how-to/bootstrap/circle-image/
 
-https://www.shapedivider.app/
+- https://www.shapedivider.app/
 
 
 ## License 
